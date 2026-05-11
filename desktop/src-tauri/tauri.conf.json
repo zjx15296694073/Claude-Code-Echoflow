@@ -29,7 +29,7 @@
   },
   "plugins": {
     "updater": {
-      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDlCOUIwRDExQTc5RTFGMzYKUldRMkg1Nm5FUTJibTJ2cGlHY0pkL0dGemxXMUlzc01pVTVMM1U3WGpmWUtrUC8wK2ErSXhLKzEK",
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDM2RUMyRDlDMjg1RDJFNTAKUldSUUxsMG9uQzNzTnNpdmN0OTFzanN1UStjNGU1OUVCVlVOSXBZT1p0SEtqL3huR1R6YkF6Z2wK",
       "endpoints": [
         "https://github.com/zjx15296694073/Claude-Code-Echoflow/releases/latest/download/latest.json"
       ],
