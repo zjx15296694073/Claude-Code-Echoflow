@@ -29,35 +29,35 @@ jobs:
             rust_target: aarch64-apple-darwin
             tauri_args: '--target aarch64-apple-darwin'
             label: macOS-ARM64
-            asset_name_pattern: 'Claude-Code-Echoflow_[version]_macos_arm64_[bundle][ext]'
+            asset_name_pattern: 'Claude-Code-Echoflow_[version]_macos_arm64_[ext]'
 
           # macOS Intel
           - platform: macos-latest
             rust_target: x86_64-apple-darwin
             tauri_args: '--target x86_64-apple-darwin'
             label: macOS-x64
-            asset_name_pattern: 'Claude-Code-Echoflow_[version]_macos_x64_[bundle][ext]'
+            asset_name_pattern: 'Claude-Code-Echoflow_[version]_macos_x64_[ext]'
 
           # Linux x64
           - platform: ubuntu-22.04
             rust_target: x86_64-unknown-linux-gnu
             tauri_args: '--bundles deb'
             label: Linux-x64
-            asset_name_pattern: 'Claude-Code-Echoflow_[version]_linux_x64_[bundle][ext]'
+            asset_name_pattern: 'Claude-Code-Echoflow_[version]_linux_x64_[ext]'
 
           # Linux ARM64
           - platform: ubuntu-22.04-arm
             rust_target: aarch64-unknown-linux-gnu
             tauri_args: '--bundles deb'
             label: Linux-ARM64
-            asset_name_pattern: 'Claude-Code-Echoflow_[version]_linux_arm64_[bundle][ext]'
+            asset_name_pattern: 'Claude-Code-Echoflow_[version]_linux_arm64_[ext]'
 
           # Windows x64
           - platform: windows-latest
             rust_target: x86_64-pc-windows-msvc
             tauri_args: '--bundles nsis'
             label: Windows-x64
-            asset_name_pattern: 'Claude-Code-Echoflow_[version]_windows_x64_[bundle][ext]'
+            asset_name_pattern: 'Claude-Code-Echoflow_[version]_windows_x64_[ext]'
 
     runs-on: ${{ matrix.platform }}
     name: Build (${{ matrix.label }})
